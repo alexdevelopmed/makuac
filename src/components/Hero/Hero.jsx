@@ -1,5 +1,5 @@
 import React from 'react'
-import Personaje from "../../assets/Personaje.png"
+import Personaje from "../../assets/Personaje.jpeg"
 import Logo from "../../assets/Logo.png"
 import {motion} from "framer-motion"
 import { slipeUp,slipeInFromSide } from '../../utility/animation'
