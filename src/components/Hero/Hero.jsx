@@ -26,20 +26,18 @@ const Hero = () => {
           initial="initial"
           animate="animate"
           >  
-            El objetivo principal de MaKuac Token (MKT) es brindar educación financiera 
-            accesible y entretenida a través de una memecoin que represente la unión de 
-            la cultura, la tecnología y la comunidad global. Este token, diseñado para 
-            captar la atención de los entusiastas de las criptomonedas y los nuevos 
-            inversores, combina las enseñanzas financieras del mundo real con el dinamismo 
-            de una narrativa divertida y única.
+            El objetivo principal de MaKuac Token (MKT) es brindar educación financiera accesible y 
+            entretenida a través de una memecoin que representa la unión de la cultura, la tecnología 
+            y la comunidad global. Este token, diseñado para captar la atención de los entusiastas de 
+            las criptomonedas y los nuevos inversores, combina las enseñanzas financieras del mundo real 
+            con el dinamismo de una narrativa divertida y única.
             <br/>
             <br/>
-            MaKuac Token no es solo una memecoin; es una invitación a participar en un 
-            movimiento que combina diversión, nostalgia y educación financiera. Creemos 
-            que MKT puede ser el catalizador para que más personas exploren el mundo de 
-            las criptomonedas y aprendan a gestionar sus finanzas de manera efectiva, todo 
-            mientras disfrutan del espíritu del Tío Rico.¡Únete a nosotros y experimenta 
-            la riqueza y sabiduría financiera con MaKuac Token!
+            MaKuac Token no es solo una memecoin; es una invitación a participar en un movimiento que combina
+            diversión, nostalgia y educación financiera. Creemos que MKT puede ser el catalizador para que 
+            más personas exploren el mundo de las criptomonedas y aprendan a gestionar sus finanzas de manera
+            efectiva, todo mientras disfrutan del espíritu del Tío Rico.¡Únete a nosotros y experimenta la 
+            riqueza y sabiduría financiera con MaKuac Token!
           </motion.p>
           <motion.div 
           className='flex justify-center gap-4'
