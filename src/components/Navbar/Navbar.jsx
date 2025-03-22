@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/Logoo.svg";
 
 const navbarlinks = [
   {
@@ -47,7 +47,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 bg-gray-500 w-full bg-opacity-30 backdrop-blur-md z-50">
+    <nav className="fixed top-0 left-0 bg-gray-800 w-full bg-opacity-30 backdrop-blur-md z-50">
       <div className="flex justify-between items-center sm:px-12 sm:py-6 px-4 py-3">
         {/*Logo Navbar*/}
         <div>
@@ -124,7 +124,7 @@ const Navbar = () => {
 
       {/* Menú móvil */}
       <div
-        className={`md:hidden absolute w-full bg-purple-950 transition-all duration-300 ${
+        className={`md:hidden absolute w-full bg-gray-800 transition-all duration-300 ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
@@ -144,7 +144,7 @@ const Navbar = () => {
         </ul>
 
         {/* Redes sociales móvil */}
-        <ul className="flex space-x-4 px-4 py-2 border-t border-purple-700 justify-center">
+        <ul className="flex space-x-4 px-4 py-2 border-t border-gray-700 justify-center">
           {navbarRedes.map((link) => (
             <li key={link.id}>
               <a

@@ -1,6 +1,6 @@
 import React from 'react'
 import Personaje from "../../assets/Personaje.jpeg"
-import Logo from "../../assets/Logo.png"
+/*import Logo from "../../assets/Logo.png"*/
 import {motion} from "framer-motion"
 import { slipeUp,slipeInFromSide } from '../../utility/animation'
 
@@ -11,26 +11,33 @@ const Hero = () => {
 
         {/*Textos y descripcion*/}
         <div className='p-10 sm:p-10 md:p-15 lg:p-30 xl:p-36'>
-          <motion.img 
-          src={Logo} alt="Logo del juego" 
+          <motion.h1 
+          /*src={Logo} alt="Logo del juego"*/
+          className='text-white text-[50px]' 
           variants={slipeUp(0.2)}
           initial="initial"
           animate="animate"
-          />
+          >
+            Makuac Token
+          </motion.h1>
           <motion.p 
-          className='py-12 text-white'
+          className='py-12 text-justify text-white'
           variants={slipeUp(0.3)}
           initial="initial"
           animate="animate"
           >  
-            "LSOY MAKUAC empor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis 
-            nostrud exercitation ullamco laboris nisi ut aliquip 
-            ex ea commodo consequat. Duis aute irure dolor in 
-            reprehenderit in voluptate velit esse cillum dolore 
-            eu fugiat nulla pariatur. Excepteur sint occaecat 
-            cupidatat non proident, sunt in culpa qui officia 
-            deserunt mollit anim id est laborum."
+            El objetivo principal de MaKuac Token (MKT) es brindar educación financiera accesible y 
+            entretenida a través de una memecoin que representa la unión de la cultura, la tecnología 
+            y la comunidad global. Este token, diseñado para captar la atención de los entusiastas de 
+            las criptomonedas y los nuevos inversores, combina las enseñanzas financieras del mundo real 
+            con el dinamismo de una narrativa divertida y única.
+            <br/>
+            <br/>
+            MaKuac Token no es solo una memecoin; es una invitación a participar en un movimiento que combina
+            diversión, nostalgia y educación financiera. Creemos que MKT puede ser el catalizador para que 
+            más personas exploren el mundo de las criptomonedas y aprendan a gestionar sus finanzas de manera
+            efectiva, todo mientras disfrutan del espíritu del Tío Rico.¡Únete a nosotros y experimenta la 
+            riqueza y sabiduría financiera con MaKuac Token!
           </motion.p>
           <motion.div 
           className='flex justify-center gap-4'
