@@ -1,25 +1,30 @@
 import React, { useState } from "react";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/Logo.svg";
 
 const navbarlinks = [
   {
     id: 1,
-    title: "Inicio",
+    title: "¿QUE SOMOS?",
     link: "/",
   },
   {
     id: 2,
-    title: "Nosotros",
+    title: "TOKEN",
     link: "#",
   },
   {
     id: 3,
-    title: "Contacto",
+    title: "¿COMO COMPRAR?",
     link: "#",
   },
   {
     id: 4,
-    title: "Soporte",
+    title: "WHITEPAPER",
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "BLOG",
     link: "#",
   },
 ];
@@ -27,14 +32,32 @@ const navbarlinks = [
 const navbarRedes = [
   {
     id: 1,
-    title: "Instagram",
-    link: "https://www.instagram.com/",
-    icon: "bi bi-instagram",
+    title: "Telegram",
+    link: "https://t.me/+g_4u1SnFjz0wN2Nh",
+    icon: "bi bi-telegram",
   },
   {
     id: 2,
+    title: "X",
+    link: "https://x.com/MaKuacMKT?t=dslNsC4zZSJ0juarInKfIw&s=09",
+    icon: "bi bi-twitter-x",
+  },
+  {
+    id: 3,
+    title: "Reddit",
+    link: "https://www.reddit.com/u/Makuactoken/s/HLkhIo5fSu",
+    icon: "bi bi-reddit",
+  },
+  {
+    id: 4,
+    title: "Instagram",
+    link: "https://www.instagram.com/makuacplay?igsh=MXhnYjFsZDZ2YXNzag==",
+    icon: "bi bi-instagram",
+  },
+  {
+    id: 5,
     title: "Tiktok",
-    link: "https://www.tiktok.com/explore",
+    link: "https://www.tiktok.com/@makuacplay?_t=ZS-8w1ldP0GtQv&_r=1",
     icon: "bi bi-tiktok",
   },
 ];
