@@ -26,6 +26,7 @@ const Hero = () => {
           initial="initial"
           animate="animate"
           >  
+
             El objetivo principal de MaKuac Token (MKT) es brindar educación a travez del crecimiento
             personal que va mas alla del dinero junto a mis socios te mostrare como la IA, la Blockchain
             y las finanzas puede ser herramientas para tu desarrollo personal y espiritual.
@@ -39,6 +40,7 @@ const Hero = () => {
             que MKT puede ser el catalizador para que más personas exploren el mundo de 
             las criptomonedas y aprendan a gestionar sus finanzas de manera efectiva.
             ¡Deja que te acompaeñemos en este viaje de trasnformacion, siguenos para inspirarte y crecer!
+
           </motion.p>
           <motion.div 
           className='flex justify-center gap-4'
